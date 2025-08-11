@@ -1,2 +1,2 @@
-# Data Ingestion s3 Snowflake
-ETL pipeline that ingests a dirty CSV file from Amazon S3, stages it in Snowflake, performs data cleaning using SQL transformations, and loads it into a clean final table for analysis or BI tools.
+# Data Ingestion: Amazon S3 → Snowflake
+End-to-end ELT pipeline that ingests a raw CSV file stored in Amazon S3, stages it in Snowflake, performs data cleaning and transformations using SQL, and loads the processed data into a clean, analytics-ready table for use in BI tools or reporting.
